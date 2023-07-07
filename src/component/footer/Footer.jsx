@@ -5,7 +5,7 @@ import { data1, data2, data3, data4, data5, data6 } from "./Data";
 const Footer = () => {
   return (
     <div>
-      <h3 className="mb-2 font-bold">More deals of today's weather</h3>
+      <h3 className="mb-2 font-bold">More deals of todays weather</h3>
 
       <div className="flex justify-between items-center mx-12 my-3  ">
         <div className="h-full  w-[200px] bg-white rounded-[20px] px-3 ">
@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="h-full  w-[200px] bg-white rounded-[20px] px-3 ">
           <Humidity {...data2} />
         </div>
-        <div className="h-full  w-[200px] bg-white rounded-[20px] px-3 ">
+        <div className="h-full  w-[200px] bg-white rounded-[20px] px-2 ">
           <Humidity {...data3} />
         </div>
       </div>

@@ -1,11 +1,11 @@
 import React from "react";
 
-const Humidity = ({ title, humidity_data, subtitle, imgSrc, states }) => {
+const Humidity = ({ title, humidity_data, subtitle, imgSrc, states: }) => {
   const containerWidth = states.length === 1 ? "140px" : "auto";
 
   return (
     <div className="flex flex-col justify-center items-center w-full p-3">
-      <div className="flex justify-between items-center w-full px-2">
+      <div className="flex justify-between items-center w-full px-1">
         <h4 className="font-bold">{title}</h4>
         <span className="h-6 w-6 ml-3 bg-blue-500 rounded-[6px]">
           <img
