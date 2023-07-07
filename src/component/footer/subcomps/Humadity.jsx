@@ -1,6 +1,6 @@
 import React from "react";
 
-const Humidity = ({ title, humidity_data, subtitle, imgSrc, states: }) => {
+const Humidity = ({ title, humidity_data, subtitle, imgSrc, states }) => {
   const containerWidth = states.length === 1 ? "140px" : "auto";
 
   return (
