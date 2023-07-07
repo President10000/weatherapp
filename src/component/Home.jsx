@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Chart from "./Chart";
 import Footer from "./footer/Footer";
 import Testo from "./Testo";
+import dog from "../weather/dog.png";
 
 const Home = () => {
   return (
@@ -16,6 +17,13 @@ const Home = () => {
         <Leftbar />
         <Hero />
         <Testo />
+        <div className="mt-16 overflow-auto">
+          <img
+            src={dog}
+            alt="sleeping dog"
+            className=" float-left inline-block"
+          />
+        </div>
       </div>
       <div className="  basis-3/4  bg-[#AFCFF2] rounded-[40px] p-3 ">
         <Rightbar />

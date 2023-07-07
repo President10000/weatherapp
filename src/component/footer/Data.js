@@ -11,8 +11,8 @@ export const data1 = {
   imgSrc: drop,
   states: [
     { con: "good", val: "12%" },
-    { con: "normal", val: "18%" },
-    { con: "bad", val: "23%" },
+    { con: "normal", val: "28%" },
+    { con: "bad", val: "80%" },
   ],
 };
 export const data2 = {
@@ -21,8 +21,8 @@ export const data2 = {
   subtitle: "Km/h",
   imgSrc: wind,
   states: [
-    { con: "10", val: "100%" },
-    { con: "20", val: "100%" },
+    { con: "10", val: "80%" },
+    { con: "20", val: "0%" },
     { con: "30", val: "0%" },
     { con: "40", val: "0%" },
     { con: "50", val: "0%" },
@@ -35,7 +35,7 @@ export const data3 = {
   imgSrc: rain,
   states: [
     { con: "01", val: "100%" },
-    { con: "10", val: "80%" },
+    { con: "10", val: "12%" },
     { con: "20", val: "0%" },
     { con: "30", val: "0%" },
     { con: "40", val: "0%" },
@@ -68,5 +68,5 @@ export const data6 = {
   humidity_data: "42%",
   subtitle: "",
   imgSrc: rainy,
-  states: [{ con: "30\u00B0", val: "40%" }],
+  states: [{ con: "42\u00B0", val: "40%" }],
 };

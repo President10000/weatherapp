@@ -87,11 +87,11 @@ const Chart = () => {
           const { time, con, rain, temp, clipPath } = item;
           return (
             <div key={i} className="mb-2 mt-1">
-              <p className="ml-[1px] mt-2 font-medium ">{time}</p>
+              <p className="ml-[1px] mt-2 font-semibold ">{time}</p>
               <p className="icon h-4 w-4 my-1">
                 <img src={con} alt="icon" />
               </p>
-              <p className="font-normal">{temp}&#8451;</p>
+              <p className="font-semibold">{temp}&#8451;</p>
               <div className="flex justify-center items-center h-20 w-[90px]">
                 <div className="h-full w-[1px] bg-slate-800"></div>
                 <div
