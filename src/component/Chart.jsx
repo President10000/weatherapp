@@ -24,14 +24,14 @@ const Chart = () => {
       con: Cloud,
       temp: "27",
       rain: "58",
-      clipPath: "polygon(1% 63%, 100% 46%, 100% 100%, 0 100%)",
+      clipPath: "polygon(1% 61%, 100% 46%, 100% 100%, 0 100%)",
     },
     {
       time: "13:00",
       con: Cloud,
       temp: "27",
       rain: "75",
-      clipPath: "polygon(0 63%, 100% 75%, 100% 100%, 0 100%)",
+      clipPath: "polygon(0 46%, 100% 75%, 100% 100%, 0 100%)",
     },
     {
       time: "14:00",
@@ -95,7 +95,7 @@ const Chart = () => {
               <div className="flex justify-center items-center h-20 w-[90px]">
                 <div className="h-full w-[1px] bg-slate-800"></div>
                 <div
-                  className="h-20 w-[90px] bg-blue-500"
+                  className="h-20 w-[90px] bg-blue-500 "
                   style={{
                     clipPath: clipPath,
                   }}

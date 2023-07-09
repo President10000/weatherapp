@@ -27,7 +27,8 @@ const Humidity = ({ title, humidity_data, subtitle, imgSrc, states }) => {
             <div key={i}>
               <p>{con}</p>
               <div
-                className={`h-3 w-auto w-[${containerWidth}] bg-[#AFCFF2] relative rounded-md overflow-hidden `}
+                className="h-3  bg-[#AFCFF2] relative rounded-md overflow-hidden"
+                style={{ width: containerWidth }}
               >
                 <span
                   className={` absolute bg-[#5C9CE5]`}
